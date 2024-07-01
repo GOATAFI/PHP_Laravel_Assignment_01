@@ -1,11 +1,23 @@
-.container{
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  width: 300px;
+  height: 400px;
+  border: 1px black solid;
+}
+
+.proPicContainer{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
-.card{
-    width: 300px;
-    height: 300px;
-    border: 1px black solid;
+.proPic {
+  height: 70px;
+  width: 70px;
+  margin-top: 100px;
+  border-radius: 50%;
 }
