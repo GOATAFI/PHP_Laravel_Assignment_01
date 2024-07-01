@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Indie+Flower&display=swap');
+
 .container {
     display: flex;
     justify-content: center;
@@ -6,7 +8,7 @@
 }
 .card {
     width: 400px;
-    height: 600px;
+    height: 500px;
     border: 1px solid black;
     border-radius: 13px;
     overflow: hidden;
@@ -56,6 +58,26 @@
 .follower p {
     text-align: center;
 }
+.follower h3, .follower p {
+    margin: 10px; 
+}
 .myInfo p{
     color: gray;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.contact span {
+    font-family: "Courgette", cursive;
+    font-size: 20px;
+    color: #000;
 }
