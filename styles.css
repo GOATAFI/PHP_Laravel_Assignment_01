@@ -84,3 +84,6 @@
 .title h2{
     text-decoration: underline;
 }
+.title h5{
+    font-style: italic;
+}
