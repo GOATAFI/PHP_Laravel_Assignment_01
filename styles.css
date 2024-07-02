@@ -78,6 +78,9 @@
 }
 .contact span {
     font-family: "Courgette", cursive;
-    font-size: 20px;
+    font-size: 17px;
     color: #000;
+}
+.title h2{
+    text-decoration: underline;
 }
